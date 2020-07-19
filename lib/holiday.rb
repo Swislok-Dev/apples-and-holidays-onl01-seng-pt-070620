@@ -80,5 +80,5 @@ def all_holidays_with_bbq(holiday_hash)
     day.map do |day, supply|
       day if supply.include?("BBQ")
     end
-  end.compact.flatten
+  end.flatten.compact
 end
